@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>我的个人主页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* 全局样式 */
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0.5rem 0;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    a.button {
+      background: #fff;
+      color: #764ba2;
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+    a.button:hover {
+      transform: scale(1.05);
+    }
+    /* 任务导航样式 */
+    nav {
+      margin-bottom: 2rem;
+    }
+    nav span {
+      margin-right: 1rem;
+      font-size: 1.1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 0.5rem;
+      text-decoration: underline;
+    }
+    nav a:hover {
+      color: #ffe259;
+    }
+  </style>
+</head>
+<body>
+  <!-- 任务管理导航 -->
+  <nav>
+    <span>任务管理：</span>
+    <a href="task202508.html">2025-08</a>
+    <a href="task202509.html">2025-09</a>
+    <a href="task202510.html">2025-10</a>
+    <a href="task202511.html">2025-11</a>
+    <a href="task202512.html">2025-12</a>
+  </nav>
+
+  <!-- 个人简介 -->
+  <h1>你好，我是 xxx</h1>
+  <p>欢迎来到我的个人主页！</p>
+  <a class="button" href="mailto:your@email.com">联系我</a>
+</body>
+</html>
